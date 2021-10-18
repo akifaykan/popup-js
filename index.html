@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Js</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="modal-fixed" class="modal__fixed"></div>
+    <section class="modal container">
+        <button class="modal__button" id="open-modal">
+            Open Modal
+        </button>
+        <div class="modal__container" id="modal-container">
+            <div class="modal__content">
+                <div class="modal__close close-modal" title="Close">✖</div>
+                <img src="img/item.png" alt="" class="modal__img">
+                <h1 class="modal__title">Good Job!</h1>
+                <p class="modal_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis.</p>
+                <button class="modal__button modal__button-width">
+                    View Status
+                </button>
+                <button class="modal__button-link close-modal">
+                    Close
+                </button>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
