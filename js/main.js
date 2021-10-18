@@ -2,10 +2,10 @@ const openBtn = document.getElementById('open-modal'),
     closeBtn = document.querySelectorAll('.close-modal'),
     modalFixed = document.getElementById('modal-fixed'),
     modalContainer = document.getElementById('modal-container');
-    
+
 if (openBtn && modalContainer) {
     openBtn.addEventListener('click', openModal);
-    closeBtn.forEach((c) => c.addEventListener('click', closeModal));
+    closeBtn.forEach((e) => e.addEventListener('click', closeModal));
     modalFixed.addEventListener('click', closeModal);
 
     function openModal() {
